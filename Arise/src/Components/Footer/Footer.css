@@ -1,0 +1,96 @@
+.containers{
+  background-color: #dde8ed;
+    height: 400px;
+    width: 100%;
+}
+.social i{
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: #124E66;
+}
+.social i:hover{
+    font-size: 30px;
+}
+.icon{
+    margin-left: 620px;
+   padding-top: 40px;
+   margin-bottom: 5px;
+}
+.hr{
+   width: 90%;
+   margin: auto;
+}
+.about{
+    width: 40%;
+    margin-left: 220px;
+}
+.about p{
+    color: #124E66;
+}
+.containers h1 span{
+    margin-top: 85px;
+    color: #124E66;
+    margin-left: 100px;
+}
+h4{
+    font-size: 15px;
+    font-size: 200;
+    margin-left: 90px;
+    color: #012633;
+}
+h3{
+    margin-left: 40px;
+    font-size: 15px;
+    font-size: 200;
+    color: #012633;
+}
+.blocks{
+    display: flex;
+}
+.social{
+    margin-left: 400px;
+}
+.p1{
+    margin-left: 620px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #124E66;
+}
+.p2{
+    margin-left: 500px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #124E66;
+}
+@media (max-width: 768px) {
+    .social{
+        margin-left: 60px;
+    }
+    .about{
+        margin-left: 10px;
+    }
+    .about p{
+        text-align: left;
+    }
+    .p1{
+        margin-left: 250px;
+    }
+    .p2{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .containers{
+        width: 95%;
+        height: 50%;
+       margin:auto ;
+    }h4{
+        font-size: 20px;
+       margin-right: 70px;
+    }
+    h3{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}

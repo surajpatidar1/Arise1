@@ -1,0 +1,90 @@
+.contact i{
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    position: relative;
+    top: 35px;
+    margin-bottom: 10px;
+    color: #124E66;
+}
+.contact{
+    height: 500px;
+    width: 700px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 45px;
+    color: #3f8cab;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateX(-100%);
+  animation: slideIn 1s ease-out forwards;
+  animation-delay: 0.2s;
+    
+}
+a:hover{
+    font-size: 30px;
+}
+#icon{
+    margin-left: 100px;
+   position: relative;
+}
+.contact-container{
+    box-sizing: border-box;
+    border: 1px solid #124E66;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #124E66;
+    margin-top: -10px;
+    cursor: pointer;
+}
+h1 span{
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+@media  (max-width:768px){
+    .contact{
+      left: 30px;
+    }
+    .contact-container{
+        width: 80%;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    h1 span{
+        color: #124E66;
+        margin-left: 300px;
+        margin-bottom: 70px;
+        padding-bottom: 20px;
+    }
+    .back{
+        margin: 60px 0px 0px 0px;
+    }
+    a{
+        font-size: 20px;
+        opacity: 0;
+        transform: translateX(-100%);
+      animation: slideIn 1s ease-out forwards;
+      animation-delay: 0.2s;
+    }
+}
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

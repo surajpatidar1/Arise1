@@ -1,0 +1,59 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.content p {
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.5s;
+  cursor: pointer;
+}
+
+.content p span {
+  color: #124E66;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.content p span:hover {
+  box-shadow: 4px 4px 50px #012633;
+}
+@media (max-width: 768px) {
+  .video-container{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+  }
+}
