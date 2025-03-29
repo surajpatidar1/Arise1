@@ -94,3 +94,32 @@ h3{
         margin-top: 40px;
     }
 }
+@media (max-width: 480px) {
+    .p1{
+        margin-left: 200px;
+        font-size: 1rem;
+    }
+    .p2{
+        margin-left: 80px;
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+    }
+    h4{
+       width: 80%;
+       margin-right: 140px;
+       font-size: 1rem;
+       
+    }
+    h3{
+        font-size: 1rem;
+        margin-top: 40px;
+    }
+    .social i{
+       font-size: 1.5rem;
+       margin-left: 10px;
+    }
+    .containers h1 span{
+       margin-left: -0.1rem;
+    }
+   
+}

@@ -98,6 +98,50 @@ animation-delay: 0.2s;
 
   }
 }
+@media (max-width: 480px) {
+  .head span{
+      font-size: 0.7rem;
+   }
+   .about-content  {
+     font-size: 0.9rem;
+     text-align: justify;
+     width: 50vh;
+     margin-left: 200px;
+    
+ 
+   }
+   .about-img {
+     flex-direction: column;
+     overflow:scroll;
+   }
+   .part1, .part2 {
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     opacity: 0;
+     transform: translateX(-100%);
+   animation: slideIn 1s ease-out forwards;
+   animation-delay: 0.2s;
+   margin:auto;
+   
+   
+   }
+   .part1 img {
+     width: 35vh;
+    
+   }
+   .part2 img {
+    width: 35vh;
+     height: 220px;
+     margin-top: 20px ;
+     gap: 20px;
+   }
+   #img:hover{
+      box-shadow: 1px 1px 20px #124E66;
+      width: 75%;
+ 
+   }
+  
+}
 @keyframes slideIn {
   from {
     opacity: 0;

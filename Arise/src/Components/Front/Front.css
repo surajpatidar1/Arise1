@@ -57,3 +57,25 @@ video {
     margin-top: 30px;
   }
 }
+@media (max-width: 480px) {
+  .video-container{
+    width: 100%;
+    height: 600px;
+    margin:auto;
+  }
+  .content p {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 0.5s;
+    cursor: pointer;
+  }
+  .content p span {
+    color: #124E66;
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+  
+}

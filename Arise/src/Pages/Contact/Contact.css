@@ -77,6 +77,26 @@ h1 span{
       animation-delay: 0.2s;
     }
 }
+@media (max-width:480px) {
+  .contact-container{
+    width: 80%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+a{
+  font-size: 0.8rem;
+  opacity: 0;
+  transform: translateX(-100%);
+animation: slideIn 1s ease-out forwards;
+animation-delay: 0.2s;
+}
+h1 span{
+  color: #124E66;
+  margin-left: 190px;
+  margin-bottom: 70px;
+  padding-bottom: 20px;
+}
+}
 @keyframes slideIn {
     from {
       opacity: 0;
