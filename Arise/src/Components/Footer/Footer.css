@@ -1,125 +1,58 @@
-.containers{
-  background-color: #dde8ed;
-    height: 400px;
-    width: 100%;
-}
-.social i{
-    font-size: 23px;
-    font-weight: 600;
-    margin-left: 25px;
-    margin-top: 10px;
+.containers {
+    padding: 20px;
+    background-color: #eff6fa;
+    border-radius: 10px;
+  }
+  
+  .containers h1 {
+    text-align: center;
     color: #124E66;
-}
-.social i:hover{
-    font-size: 30px;
-}
-.icon{
-    margin-left: 620px;
-   padding-top: 40px;
-   margin-bottom: 5px;
-}
-.hr{
-   width: 90%;
-   margin: auto;
-}
-.about{
-    width: 40%;
-    margin-left: 220px;
-}
-.about p{
-    color: #124E66;
-}
-.containers h1 span{
-    margin-top: 85px;
-    color: #124E66;
-    margin-left: 100px;
-}
-h4{
-    font-size: 15px;
-    font-size: 200;
-    margin-left: 90px;
-    color: #012633;
-}
-h3{
-    margin-left: 40px;
-    font-size: 15px;
-    font-size: 200;
-    color: #012633;
-}
-.blocks{
+  }
+  
+  .blocks {
     display: flex;
-}
-.social{
-    margin-left: 400px;
-}
-.p1{
-    margin-left: 620px;
-    font-size: 18px;
-    font-weight: 600;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .about, .social {
+    width: 45%;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .about h4, .social h3 {
     color: #124E66;
-}
-.p2{
-    margin-left: 500px;
-    font-size: 18px;
-    font-weight: 600;
+  }
+  
+  .social i {
+    font-size: 24px;
+    margin: 10px;
     color: #124E66;
-}
-@media (max-width: 768px) {
-    .social{
-        margin-left: 60px;
+    cursor: pointer;
+  }
+  
+  .hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .p1, .p2 {
+    text-align: center;
+    color: #124E66;
+  }
+  
+  @media (max-width: 768px) {
+    .blocks {
+      flex-direction: column;
+      align-items: center;
     }
-    .about{
-        margin-left: 10px;
+  
+    .about, .social {
+      width: 90%;
+      text-align: center;
     }
-    .about p{
-        text-align: left;
-    }
-    .p1{
-        margin-left: 250px;
-    }
-    .p2{
-        margin-left: 120px;
-        margin-bottom: 20px;
-    }
-    .containers{
-        width: 95%;
-        height: 50%;
-       margin:auto ;
-    }h4{
-        font-size: 20px;
-       margin-right: 70px;
-    }
-    h3{
-        font-size: 20px;
-        margin-top: 40px;
-    }
-}
-@media (max-width: 480px) {
-    .p1{
-        margin-left: 200px;
-        font-size: 1rem;
-    }
-    .p2{
-        margin-left: 80px;
-        margin-bottom: 20px;
-        font-size: 0.9rem;
-    }
-    h4{
-       width: 80%;
-       margin-right: 140px;
-       font-size: 1rem;
-       
-    }
-    h3{
-        font-size: 1rem;
-        margin-top: 40px;
-    }
-    .social i{
-       font-size: 1.5rem;
-       margin-left: 10px;
-    }
-    .containers h1 span{
-       margin-left: -0.1rem;
-    }
-   
-}
+  }
+  
